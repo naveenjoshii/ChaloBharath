@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394281856939",
+    "firebase_url": "https://chalobharath-2810c.firebaseio.com",
+    "project_id": "chalobharath-2810c",
+    "storage_bucket": "chalobharath-2810c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394281856939:android:07800dd9c345b10a",
+        "android_client_info": {
+          "package_name": "com.example.hp.chalobharath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394281856939-k05vvcoqn587k9j270hd76h1nv1bsdpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.chalobharath",
+            "certificate_hash": "5b9e7f45d765fa2deafca71137e9fb5ec76c9c3c"
+          }
+        },
+        {
+          "client_id": "394281856939-fpe1od76k6lur56paadvdu0s1ihhlhu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnc0XjHhu9_C8t1qABBfUV4MbiH1Qmnhs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394281856939-fpe1od76k6lur56paadvdu0s1ihhlhu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.chalobharath.registerActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@color/colorAccent"
+
+            android:text="Name"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/sName"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texew"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Email"
+
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/sEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ttView"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorAccent"
+            android:layout_height="20dp"
+            android:text="Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/sPassword"
+            android:layout_height="match_parent"
+            android:inputType="textVisiblePassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/fdd"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+
+            android:textColor="@color/colorAccent"
+
+            android:text="Mobile Number"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/sMobile"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/male"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="@color/colorAccent"
+
+                android:id="@+id/female"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:id="@+id/sRegister"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ndh"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+
+            android:text="Already have an Account?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/llogin"
+            android:text="Login"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.hp.chalobharath.loginActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:textSize="30dp"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimaryDark"
+    android:text="Sign In"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/texew"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@color/colorAccent"
+
+            android:text="Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/lemail"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ttView"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/lpassword"
+
+            android:layout_height="match_parent"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot password?"
+        android:textSize="16dp"
+        android:id="@+id/forgot"
+        android:textAlignment="viewEnd"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LOGIN" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/hh"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="16dp"
+            android:text="New User?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/signup"
+            android:text="Register"
+            android:textSize="16dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+</LinearLayout>
